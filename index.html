@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME PAGE</title>
+	<link
+    rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="D:\html\fontawesome-free\css\all.css">
+	<style>
+ body
+{
+	margin:0px;
+	font-family:italic;
+}
+
+#main-header
+{
+	background:radial-gradient(circle,red,yellow,pink,cyan,purple);
+	   text-align:center;
+     padding: 20px;
+}
+#main-header h1
+{
+	margin:0px;
+	color:white;
+	font-size:40px;
+}
+
+#main-nav
+{
+	background:linear-gradient(45deg,darkslategrey,brown);
+	padding:5px;
+	display:flex;
+	flex-direction:row;
+	position: sticky;
+}
+#main-nav a
+{
+	color:white;
+	text-decoration:none;
+	margin:8px;
+	display:inline-block;
+	padding:10px 20px;
+}
+#main-nav a.active
+{
+	background:linear-gradient(45deg,grey,darkred);
+	border-radius:10px;
+	color:white;
+}
+#main-nav a:hover
+{
+	background:linear-gradient(45deg,grey,rgb(242,147,36));
+	border-radius:10px;
+	box-shadow:0 0 10px white;
+}
+.fa
+{
+	padding-right:5px;
+}
+
+#main-section
+{
+	text-align:center;
+	margin:15px 0px;
+}
+#main-section .main-section-article
+{
+	box-shadow:0 0 10px darkred;
+	width:330px;
+	height:500px;
+	margin:5px;
+	display:inline-grid;
+	border-radius:0px 30px 0px 30px;
+	transition:all 0.5s;
+}
+#main-section .main-section-article:hover
+{
+	width:340px;
+	cursor:pointer;
+}
+.main-section-article img
+{
+	width:100%;
+}
+.main-section-article .main-section-text
+{
+	padding:10px;
+}
+#main-section-news
+{
+	width:80%;
+	margin:auto;
+}
+#main-section-news .main-section-news-article
+{
+	border:2px solid darkred;
+	box-shadow:0 0 10px darkred;
+	border-radius:20px;
+	margin:10px;
+	overflow:hidden;
+	text-align:center;
+}
+#main-section-news .main-section-news-article img
+{
+	width:500px;
+	height:300px;
+	box-shadow:0 0 10px darkred;
+	border-radius:20px;
+	transition:all 0.5s;
+}
+#main-section-news .main-section-news-article img:hover
+{
+	transform:scale(1.2,1.2);
+}
+#main-section-news .main-section-news-article h2
+{
+	background-color:darkred;
+	color:white;
+	margin:0px;
+	padding:10px;
+}
+
+@media (max-width:600px)
+{
+	#main-nav
+	{
+		flex-direction:column;
+	}
+}
+@media (max-width:750px)
+{
+	#main-nav
+	{
+		flex-direction:column;
+	}
+	#main-section-news .main-section-news-article img
+	{
+		width:400px;
+	}
+
+}
+@media (max-width:500px)
+{
+	#main-nav
+	{
+		flex-direction:column;
+	}
+	#main-section-news .main-section-news-article img
+	{
+		width:200px;
+	}
+
+
+	}
+	#gallery  h2
+	{
+		text-align: center;
+		background-color: violet;
+		margin: 0px;
+		padding: 10px;
+		border-radius: 20px;
+	}
+	#gallery img
+	{
+	width:300px;
+	height:250px;
+	box-shadow:0 0 10px darkred;
+	border-radius:20px;
+	transition:all 0.5s;
+	align-items: center;
+	margin-left: 35px;
+	margin-top: 5px;
+
+	}
+	#gallery img:hover
+	{
+		transform:scale(1.2,1.2);
+	}
+
+	@media (max-width:600px)
+    {
+	#gallery
+	{
+		flex-direction:column;
+	}
+}
+@media (max-width:750px)
+{
+	#gallery
+	{
+		flex-direction:column;
+	}
+	#gallery img
+	{
+		width:400px;
+	}
+
+}
+@media (max-width:500px)
+{
+	#gallery
+	{
+		flex-direction:column;
+	}
+     #gallery img
+	{
+		width:200px;
+	}
+}
+   
+        #ramu 
+        {
+	    text-align: center;
+	    color: white;
+		background-color:purple;
+		margin: 0px;
+		padding: 10px;
+		border-radius: 20px;
+        }
+
+        #ram
+		{
+			top: 0px;
+			background-image: url(rammy.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-color: yellowgreen;
+			width: 1000px;
+			text-align: center;
+			height: 800px;
+			margin: 100px auto;
+			border-radius: 20px;
+			box-shadow: 0 0 10px black;
+			overflow: hidden;
+			position: relative;
+			border-radius: inherit;
+			transform-origin: right;
+			transition: all 3s;
+			transition-delay: 0s;
+		}
+		#ram img
+		{
+			width: 1000px;
+			height: 200px;*
+			border-radius: inherit;
+			transform-origin: right;
+			transition: all 3s;
+			transition-delay: 0s;
+			}
+
+
+		}
+		#ram:hover img
+		{
+			transform: scale(1.5,1.5);
+		}
+#ram img:hover
+{
+	transform:perspective(200px)rotateY(-90deg);
+}
+#mno
+{
+	color: blue;
+}
+#mno td
+{
+	text-align: center;
+	font-size: 30px;
+}
+#jkl
+{
+    margin: 0px;
+	background-color: aqua;
+	padding: 5px;
+	border-radius: 20px;
+}
+#jkl h2
+{
+	margin:0px;
+text-align: center;
+font-size: 40px;
+font-weight: bold;
+}
+		#abc
+		{
+		background:linear-gradient(45deg,green,violet,pink,red);
+		width: 500px;
+		box-shadow:  0 0 5px black;
+		color: white;
+		margin: 100px auto;
+		border-radius: 20px;
+		text-align-last: center;
+		margin-top: 0px;
+		}
+		.abc input[type='text'],
+		.abc input[type='email'],
+		.abc input[type='password'],
+		.abc input[type='mobilenumber'],
+		.abc select
+       {
+       	height: 25px;
+       	border-top: 10px;
+       	border:none;
+       	border-radius:10px;
+       	margin-top: 10px;
+       	background: none;
+       	border-bottom:5px solid black;
+       	outline: none;
+       	font-size:15px;
+       }
+       ::placeholder
+       {
+       	color: white;
+       }
+       select
+       {
+       	width: 190px;
+       	color: black;
+       }
+       input[type='submit']
+       {
+       	color: black;
+       	background:linear-gradient(45deg,green,violet,pink,red);
+       	border:none;
+       	border-radius: 25px;
+       	margin:25px;
+       	height: 20px;
+       	outline: none;
+       	font-size: 16px;
+       	font-weight: bold;
+       	width: 100px;
+       }
+       input[type='submit']:hover
+       {
+       	box-shadow:black;
+       	cursor: pointer;
+       }
+div footer 
+{
+	background-color: green;
+	margin-top: 0px;
+	padding: 15px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+	height: 100px;
+}
+</style>
+</head>
+<body>
+	<header id="main-header">
+		<h1 class="animate__animated animate__zoomIn">Champion</h1>
+	</header>
+	<nav id="main-nav" class="animate__animated animate__flipInX">
+		<a href="#main-section" class="active"><i class="fa fa-home"></i>Home</a>
+		<a href="#main-section-news"><i class="fa fa-newspaper"></i>News</a>
+		<a href="#gallery"><i class="fa fa-images"></i>Gallery</a>
+		<a href="#ram"><i class="fa fa-id-card"></i>About</a>
+		<a href="#jkl"><i class="fa fa-envelope"></i>Contact Us</a>
+	</nav>
+	<section id="main-section">
+		<article class="main-section-article">
+			<h2 class="animate__animated animate__zoomIn">Junior national selection</h2>
+			<img src="https://images.outlookindia.com/public/uploads/articles/2018/9/14/KABADDI_571_855.jpg">
+			<div class="main-sectio-text">
+				<p>he Indian National Kabaddi Team represents India in international kabaddi competitions. They have won gold medals in all the Asian Games to date except the 2018 Asian Games, and they have won all Kabaddi World Cup events except the recently concluded 2020 Kabaddi World Cup held in Pakistan. </p>
+			</div>
+		</article>
+		<article class="main-section-article">
+			<h2 class="animate__animated animate__zoomIn">Senior national selection</h2>
+          <img src="http://cdn.kabaddiadda.com/sites/default/files/2019-10/KI1.jpg">
+			<div class="main-sectio-text">
+				<p>Indian team, which will participate in the International Kabaddi Tournament 2019, will be selected at the Sri Guru Gobind Singh Sports Stadium,
+
+Disclosing this here today a spokesperson of the Sports Department said that the International Kabaddi Tournament 2019.</p>
+			</div>
+		</article>
+		<article class="main-section-article">
+			<h2 class="animate__animated animate__zoomIn">India selecton</h2>
+<img src="https://www.prokabaddi.com/static-assets/waf-images/00/74/ac/16-9/O6w0v0ieLP.jpg">
+			<div class="main-section-text">
+				<p>The Indian National Kabaddi Team represents India in international kabaddi competitions. They have won gold medals in all the Asian Games to date except the 2018 Asian Games, and they have won all Kabaddi World Cup events except the recently concluded 2020 Kabaddi World Cup held in Pakistan.</p>
+			</div>
+		</article>
+	</section>
+	<section id="main-section-news">
+		<article class="main-section-news-article">
+			<h2 class="animate__animated animate__zoomIn">Junior national selection</h2>
+			<figure class="zoom">
+			<img src="https://cdn.kabaddiadda.com/sites/default/files/styles/mg_thumb_1/public/2020-09/junior%20national%20boys.jpeg" alt="">
+			</figure>
+			        <p>Himachal Pradesh opened the day against Andhra Pradesh 2nd side, where the former registered a remarkable win by 49-18. Jharkhand opened their account against Pondicherry 31-27 but went on to lose their fixture against Maharashtra 46-18. Tamil Nadu finished their league stage on a high, winning both of their matches against Manipur 50-20 and Kerala 1st 36-10.</p>
+		</article>
+		<article class="main-section-news-article">
+			<h2 class="animate__animated animate__zoomIn">Senior national selection</h2>
+			<figure class="zoom">
+		 <img src="https://staticg.sportskeeda.com/editor/2020/01/340a6-15783880683097-500.jpg" alt="">
+			</figure>
+			 <p>The 67th Senior National Kabaddi Championship will commence on 2nd March 2020 and culminate on 6th March 2020, and will take place at the Poornima University in Jaipur, Rajasthan.
+
+The tournament will play host to 31 teams from the men's category and 30 teams from the women's category. Big names like Pardeep Narwal, Pawan Sehrawat, Ajay Thakur and Rahul Chaudhari among others will be representing their respective states/employers.</p>
+		</article>
+		<article class="main-section-news-article">
+			<h2 class="animate__animated animate__zoomIn">India selection</h2>
+			<figure class="zoom">
+ <img src="https://sl.sbs.com.au/public/image/file/1f32532b-eb7b-4eb4-b593-dc854c5feb02/crop/16x9" alt="">
+			</figure>
+			<p>Pakistan wins Kabaddi World Cup for the first time
+      'Unofficial' Indian team participated in the tournament 
+First-time Kabaddi World Cup hosted in Pakistan   
+The competition remained very close throughout the second session with Pakistan taking the lead in the latter half of the match.
+</p>
+		</article>
+	</section>
+	<section id="gallery">
+		<h2>GALLERY</h2>
+		<img src="https://www.prokabaddi.com/static-assets/waf-images/9b/ab/4f/16-9/BaIVBcWfQ8.jpg" alt="">
+		<img src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-bgddo2f9he5h70cpdae368ifq1-20161021030251.Medi.jpeg" alt="">
+		<img src="https://m.economictimes.com/thumb/msid-55406755,width-1200,height-900,resizemode-4,imgsize-327078/kabaddi-world-cup-2016-saw-114-million-tuned-in.jpg" alt="">
+		<img src="https://i.dawn.com/primary/2020/02/5e4a1605c92da.jpg" alt="">
+		<img src="https://etimg.etb2bimg.com/photo/60183928.cms" alt="">
+		<img src="https://s3.india.com/wp-content/uploads/2016/10/abc.jpg" alt="">
+		<img src="https://www.thehindubusinessline.com/news/sports/80lfpe/article24252692.ece/ALTERNATES/LANDSCAPE_1200/KABADDIWORLDCUP" alt="">
+		<img src="http://files.prokerala.com/news/photos/imgs/800/players-in-action-during-a-2016-kabaddi-world-cup-467972.jpg" alt="">
+	</section>
+	<h2 id="ramu">ABOUT</h2>
+	<div id="ram">
+	
+		<div id="wrapper">
+        <form>
+		<table id="mno">
+			<tr>
+			<td>Name:</td>
+			<td>V.Ramesh</td>
+		</tr>
+		<tr>
+			<td> Father Name:</td>
+			<td>V.Ramanjaneyulu</td>
+		</tr>
+		<tr>
+			<td> Date Of Birth:</td>
+			<td>04-07-1996</td>
+		</tr>
+		<tr>
+			<td> Gender:</td>
+			<td>Male</td>
+		</tr>
+		<tr>
+			<td> Nationality:</td>
+			<td>Indian</td>
+		</tr>
+		<tr>
+			<td>Language:</td>
+			<td>telugu,english</td>
+		</tr>
+		
+		</table>
+	</form>
+		</div>
+	</div>
+	<div id="jkl">
+		<h2>CONTACTS</h2>
+	</div>
+	<div id="abc">
+	<div id="xyz">
+     		<span class="fa fa-user"></span>
+     	</div>
+	<h2 align="center">Login here</h2>
+	<div class="abc">
+		<input type="text" placeholder="User name">
+	</div>
+	<div class="abc">
+		<input type="Email" placeholder="Email id">
+	</div>
+	<div class="abc">
+		<input type="Password" placeholder="Password">
+	</div>
+	<div class="abc">
+		<input type="Mobilenumber" placeholder="Mobilenumber">
+	</div>
+	<div class="abc">
+		<select>
+			<option>select destinations</option>
+			<option>maneger</option>
+			<option> team leader</option>
+			<option>Sr s/w eng</option>
+			<option>jr s/w eng</option>
+		</select>
+	</div>
+	<div>
+		<input type="submit" placeholder="submit">
+	</div>
+</div>
+<div>
+<footer class="animate__animated animate__zoomIn">
+all reservied by <span style="color:aqua">Valagonda Ramesh</span>
+</footer>
+</div>
+</body>
+</html>
+
